@@ -1,4 +1,34 @@
-html {
-  height: 100%;
-  width: 100%;
+/*Give the header a purple background and white text*/
+header {
+  background-color: rgb(206, 152, 235);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background: #976acb;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  display: block;
+  padding: 14px 24px;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.navbar a:hover {
+  background: #444;
 }
